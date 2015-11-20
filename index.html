@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JQuery</title>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<!-- this links to library on the web (absolute path) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- this links to the library saved in the project folder (relative path) -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+	<!-- custom javascript file -->
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<style> 
+		#panel, #slide {
+		    padding: 100px;
+		    text-align: center;
+		    background-color: yellow;
+		    width: 500px;
+
+		}
+
+		#panel {
+		    padding: 100px;
+		    display: none;
+
+		}
+
+		#ball {
+			height: 200px;
+			width: 200px;
+			background-color: orange;
+			border-radius: 50%;
+			text-align: center;
+			padding: 50px;
+		}
+
+		body {
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h3>CLEAR THE PAGE</h3>
+		<button id="hide">Hide</button>
+		<button id="show">Show</button>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div class="page">
+		<button id="fade">NOW YOU SEE ME</button>
+	</div>
+	<br>
+	<br>
+	
+	<div class="page">
+		
+		
+		<br>
+		<br>
+		<br>
+		<div id="slide">MAKE ME GROW</div>
+		<div id="panel"></div>
+
+
+	</div>
+	<br>
+	<br>
+
+	<div class="page" id="ball">BOUNCE!</div>
+	
+	
+</body>
+</html>
